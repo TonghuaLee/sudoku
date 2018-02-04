@@ -48,6 +48,30 @@ body > * {
 .container .row > span:last-child {
   border-right-width: 2px;
 }
+.container .row > span.empty {
+  color: white;
+}
+.container .row > span.error {
+  background: lightpink;
+}
+.container .row > span.error.empty {
+  color: lightpink;
+}
+.container .row > span.fixed {
+  background: #eeeeee;
+}
+.container .row > span.mark1 {
+  background: lightblue;
+}
+.container .row > span.mark1.empty {
+  color: lightblue;
+}
+.container .row > span.mark2 {
+  background: lightgreen;
+}
+.container .row > span.mark2.empty {
+  color: lightgreen;
+}
 .container .row.row_g_bottom > span {
   border-bottom-width: 1px;
 }
@@ -59,6 +83,70 @@ body > * {
 }
 .hidden {
   display: none;
+}
+.popup_num {
+  padding-left: 5%;
+  position: absolute;
+  padding: 0px;
+}
+.popup_num .row > span {
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+  width: 10%;
+  height: 24px;
+  line-height: 24px;
+  border: 1px solid #cccccc;
+  border-right-width: 0;
+  border-bottom-width: 0;
+  background: white;
+}
+.popup_num .row > span.col_g_right {
+  border-right-width: 1px;
+}
+.popup_num .row > span:first-child {
+  border-left-width: 2px;
+}
+.popup_num .row > span:last-child {
+  border-right-width: 2px;
+}
+.popup_num .row > span.empty {
+  color: white;
+}
+.popup_num .row > span.error {
+  background: lightpink;
+}
+.popup_num .row > span.error.empty {
+  color: lightpink;
+}
+.popup_num .row > span.fixed {
+  background: #eeeeee;
+}
+.popup_num .row > span.mark1 {
+  background: lightblue;
+}
+.popup_num .row > span.mark1.empty {
+  color: lightblue;
+}
+.popup_num .row > span.mark2 {
+  background: lightgreen;
+}
+.popup_num .row > span.mark2.empty {
+  color: lightgreen;
+}
+.popup_num .row.row_g_bottom > span {
+  border-bottom-width: 1px;
+}
+.popup_num .row:first-child > span {
+  border-top-width: 2px;
+}
+.popup_num .row:last-child > span {
+  border-bottom-width: 2px;
+}
+.popup_num .row > span {
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
 }
 .dashboard {
   position: absolute;
